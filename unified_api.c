@@ -5,6 +5,7 @@
 
 #define BUFFER_SIZE 1024
 
+// doesn't care about the source of the input, just reads from a fd
 int count_words(FILE *input) {
   char buffer[BUFFER_SIZE];
   int word_count = 0;
